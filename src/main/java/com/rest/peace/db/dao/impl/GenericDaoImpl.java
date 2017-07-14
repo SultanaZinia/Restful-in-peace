@@ -10,7 +10,7 @@ import javax.persistence.Query;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.rest.peace.db.dao.GenericDao;
-import com.rest.peace.model.DomainObject;
+import com.rest.peace.db.model.DomainObject;
 
 /**
  * @author sknabil

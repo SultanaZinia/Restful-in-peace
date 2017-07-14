@@ -3,7 +3,7 @@ package com.rest.peace.db.dao;
 import java.io.Serializable;
 import java.util.List;
 
-import com.rest.peace.model.DomainObject;
+import com.rest.peace.db.model.DomainObject;
 
 /**
  * @author sknabil

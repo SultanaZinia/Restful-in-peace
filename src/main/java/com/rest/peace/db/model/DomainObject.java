@@ -1,5 +1,5 @@
 
-package com.rest.peace.model;
+package com.rest.peace.db.model;
 
 /**
  * @author sknabil
