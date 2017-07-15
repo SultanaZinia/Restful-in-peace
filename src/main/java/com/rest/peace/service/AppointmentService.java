@@ -7,18 +7,18 @@ import com.rest.peace.db.model.Appointment;
 public interface AppointmentService {
 
 	
-List<Appointment>getPatientList();
+
 
 
 	List<Appointment> getAppointmentList();
-	void save(Appointment appoint,int paitentId);
+	void save(Appointment appoint);
 	
 	void update(Appointment appoint);
 	void delete(Appointment appoint);
 	
-	public Appointment findById(int appointmentId);
+	Appointment findById(int appointmentId);
 	
-	public void deleteById(int id);
+	void deleteById(int id);
     
     List<Appointment> getByPatientId(int patientId);
     

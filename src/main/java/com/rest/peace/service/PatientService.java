@@ -21,9 +21,9 @@ public interface PatientService {
 	
 	public void deletePatientById(int id);
     
-    public Patient getPatientByMedicalId(int medicalId);
+    public Patient getPatientByMedicalId(String medicalId);
     
-    public Patient getPatientByFname(String fname);
+    public List<Patient> getPatientByFname(String fname);
     
     
 }

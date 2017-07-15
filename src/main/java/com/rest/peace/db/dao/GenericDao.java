@@ -4,6 +4,7 @@ import java.io.Serializable;
 import java.util.List;
 
 import com.rest.peace.db.model.DomainObject;
+import com.rest.peace.db.model.Patient;
 
 /**
  * @author sknabil

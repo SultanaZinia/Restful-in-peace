@@ -21,5 +21,5 @@ public interface DoctorService {
     
     List<Doctor> getDoctorBySpeciality(String speciality);
     
-    Doctor getDoctortByFname(String fname);
+    List<Doctor> getDoctortByFname(String fname);
 }

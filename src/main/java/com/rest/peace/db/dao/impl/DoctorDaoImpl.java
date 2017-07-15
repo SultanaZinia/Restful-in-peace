@@ -15,7 +15,7 @@ public class DoctorDaoImpl extends GenericDaoImpl<Doctor, Integer> implements Do
 		// TODO Auto-generated constructor stub
 	}
 
-	
+	@Override
 	public List<Doctor> getDoctorBySpeciality(String speciality){
 		
 		List<Doctor> doctorList = null;
@@ -39,6 +39,7 @@ public class DoctorDaoImpl extends GenericDaoImpl<Doctor, Integer> implements Do
 		
 	}
 	
+@Override
 public List<Doctor> getDoctorByFname(String fname){
 		
 		List<Doctor> doctorList = null;
